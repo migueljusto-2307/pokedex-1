@@ -1,0 +1,31 @@
+.titulo{
+    justify-content: center;
+    width: 100%;
+  
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.texto{
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(255, 255, 255);
+}
+.foto{
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+}
+.nome{
+    font-size: 40px;
+    background-color:rgba(255, 255, 255, 0.253) ;
+}
+body{
+    /*background-color: rgb(255, 0, 0);*/
+    background-image: url(imgs/plano.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}

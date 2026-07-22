@@ -1,0 +1,100 @@
+/*informacoes do site*/
+@media  screen and (max-width: 600px) {
+    body { background-color: rgb(30, 255, 0);}
+    
+}
+
+
+body {
+    margin: 0px 0px;
+}
+
+.inter-regular { 
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*itens do menu*/
+.menu {
+    position: relative;
+    display: flex;
+    top: 0px;
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+.botao{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    border-radius: 16px;
+}
+.title{
+    text-align: center;
+    width: 80%;
+    margin: 16px 0px;
+}
+.icons_sm{
+    height: 32px;
+    width: 32px;
+    margin: 20px 40px;
+    
+}
+/*informacoes do pokemon*/
+.pokemon{
+margin: 30px 70px;
+}
+.poke{
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+}
+.info{
+    display: flex;
+}
+.card{
+    height: 500px;
+    width: 1000px;
+    background-color: #f98a3b;
+    margin: 50px 0px;
+}
+.desc{
+    margin: 25px 50px;
+}
+.paragrafo{
+    display: flex;
+    width: 200px;
+    margin: 25px 50px;
+    flex-direction: column;
+}
+.paragrafo1{
+    display: flex;
+    width: 125px;
+    margin: 0px 50px;
+}
+.male{
+    height: 39px;
+    width: 39px;
+}
+.grade_evolutiva{
+    margin: 0px 300px;
+    display: flex;
+}
+.lvl{
+    margin: 130px 0px ;
+}
+.bulbassaur{
+    height: 217px;
+    width: 217px;
+}
+.classe{
+    margin: 100px 0px;
+}
+.arrow{
+    width: 88px;
+    height: 74px;
+    margin: 80px 0px;
+}
+.stats{
+    display: flex;
+    margin: -325px 500px;
+}

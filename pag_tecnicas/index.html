@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="keywords" content="pokemom, pokedex, tipos, evolucao, pikachu ">
+            <meta name="description" content="este e um site para pessoas que procuram saber mais sobres pokemons">
+               <link rel="stylesheet" href="style.css">
+            <link rel="icon" href="assets/icons/logo.png">
+         <title>Lista de Técnicas</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <!--inicio da pagina inicial-->
+   <div class="menu"> <img class="icons_sm" src="assets/icons/menu.png" alt="menu">
+      <h1 class="title"> Lista de Técnicas </h1>        
+   </div>
+   <!--final da pagina inicial-->
+   <div class="categorias">
+        <h1> Técnicas</h1>
+            <h1> Poder</h1>
+            <h1> Precisão</h1>
+        <h1> PP</h1>
+   </div>
+   <div class="tecnicas">
+    <h1></h1>
+
+
+
+
+   </div>
+   <div class="menu_right">
+    <form class="form" action="/submit" method="POST">
+      <div class="dropdown">
+      <label for="filtro_tipagem"></label>
+      <select class="dropdown_open" name="filtro_tipagem" id="filtro_tipagem">
+         <option value="">Filtro Tipagem</option>
+            <option value="grass">GRASS</option>
+               <option value="poison">POISON</option>
+                  <option value="dragon">DRAGON</option>        
+                     <option value="ground">GROUND</option>
+                        <option value="fighting">FIGHTING</option>        
+                           <option value="flying">FLYING</option>
+                              <option value="ghost">GHOST</option>
+                                 <option value="dark">DARK</option>
+                                 <option value="normal">NORMAL</option>
+                              <option value="ice">ICE</option>
+                           <option value="bug">BUG</option>
+                        <option value="eletric">ELETRIC</option>
+                     <option value="fire">FIRE</option>
+                  <option value="psychic">PSYCHIC</option>
+               <option value="water">WATER</option>
+            <option value="fairy">FAIRY</option>
+         <option value="steel">STEEL</option>
+      </select>
+      </div> 
+      </form>
+      <form class="form1" action="/submit" method="POST">
+         <div class="dropdown1">
+         <label for="geracao"></label>
+         <select class="dropdown_open1" name="geracao" id="geracao">
+            <option value="">Geração</option>
+               <option value="1_geracao">1ª Geração</option>
+                  <option value="2_geracao">2ª Geração</option>
+                     <option value="3_geracao">3ª Geração</option>        
+                        <option value="4_geracao">4ª Geração</option>
+                        <option value="5_geracao">5ª Geração</option>        
+                     <option value="6_geracao">6ª Geração</option>
+                  <option value="7_geracao">7ª Geração</option>
+               <option value="8_geracao">8ª Geração</option>
+            <option value="9_geracao">9ª Geração</option>
+         </select>
+         </div> 
+      </form>    
+      <form class="form2" action="/submit" method="POST">
+        <div class="dropdown2">
+        <label for="categoria"></label>
+        <select class="dropdown_open2" name="categoria" id="categoria">
+            <option value="">Categoria</option>
+                <option value="status">Status</option>
+                <option value="physical">Physical</option>
+                <option value="special">Special</option>
+         </select>
+         </div> 
+      </form>   
+   </div>
+<div class="menu_lateral" style="display: none;">
+   <div class="classmenu">
+      <img class="arrow_left" src="assets/icons/arrowleft.png" alt="voltar">
+      <img class="user" src="assets/icons/user.png" alt="usuario">
+   </div>
+      <button class="botao_menu">Pokédex</button>
+         <button class="botao_menu1">Lista de técnicas</button>
+            <button class="botao_menu1">Lista de habilidades</button>
+               <button class="botao_menu1">Pokédex de natureza</button>
+            <button class="botao_menu1">Construtor de equipe</button>
+         <img class="separador" src="assets/icons/separador.png" alt="">
+      <button class="config">Configurações</button>
+</div>
+
+
+
+   
+   
+</body>
+</html>
