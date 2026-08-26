@@ -28,9 +28,9 @@
             <a  href="../estrutura_poke_bulba/index.html"><button class="botao"><img class="tamanho" src="assets/pokemons/bulbassaur.png" alt="bulbassaur"></button></a>
                <div class="info">        
                   <div class="botoes"> <h1 class="nome-poke">#001<h1 class="nome-poke">Bulbassaur</h1>
-                     <div class="button-poke">                                      
-                        <img src="assets/icons/star=Padrão.png" alt="favoritos">
-                        <img src="assets/icons/poke=Padrão.png" alt="capturados">
+                     <div class="button-poke" id="button_card">                                      
+                        <!--<img id="star" src="assets/icons/star=Padrão.png" alt="favoritos">-->
+                        <img id="poke" src="assets/icons/poke=Padrão.png" alt="capturados">
                      </div>
                   </div>      
                   <p class="tipo1"> <img class="tipo" src="assets/imgs/grass.png" alt="grass"> <img class="tipo" src="assets/imgs/poison.png" alt="poison"></p>
@@ -90,76 +90,75 @@
 
 
 
-
-   <form class="form" action="/submit" method="POST">
-      <div class="dropdown">
-      <label for="filtro_tipagem"></label>
-      <select class="dropdown_open" name="filtro_tipagem" id="filtro_tipagem">
-         <option value="">Filtro Tipagem</option>
-            <option value="grass">GRASS</option>
-               <option value="poison">POISON</option>
-                  <option value="dragon">DRAGON</option>        
-                     <option value="ground">GROUND</option>
-                        <option value="fighting">FIGHTING</option>        
-                           <option value="flying">FLYING</option>
-                              <option value="ghost">GHOST</option>
-                                 <option value="dark">DARK</option>
-                                 <option value="normal">NORMAL</option>
-                              <option value="ice">ICE</option>
-                           <option value="bug">BUG</option>
-                        <option value="eletric">ELETRIC</option>
-                     <option value="fire">FIRE</option>
-                  <option value="psychic">PSYCHIC</option>
-               <option value="water">WATER</option>
-            <option value="fairy">FAIRY</option>
-         <option value="steel">STEEL</option>
-      </select>
-      </div> 
-      </form>
-      <form class="form1" action="/submit" method="POST">
-         <div class="dropdown1">
+<form class="form" action="/submit" method="POST">
+         <div class="dropdown">
          <label for="geracao"></label>
          <select class="dropdown_open1" name="geracao" id="geracao">
             <option value="">Geração</option>
-               <option value="1_geracao">1ª Geração</option>
-                  <option value="2_geracao">2ª Geração</option>
-                     <option value="3_geracao">3ª Geração</option>        
-                        <option value="4_geracao">4ª Geração</option>
-                        <option value="5_geracao">5ª Geração</option>        
-                     <option value="6_geracao">6ª Geração</option>
-                  <option value="7_geracao">7ª Geração</option>
-               <option value="8_geracao">8ª Geração</option>
-            <option value="9_geracao">9ª Geração</option>
+            <option value="1">1ª Geração</option>
+            <option value="2">2ª Geração</option>
+            <option value="3">3ª Geração</option>        
+            <option value="4">4ª Geração</option>
+            <option value="5">5ª Geração</option>        
+            <option value="6">6ª Geração</option>
+            <option value="7">7ª Geração</option>
+            <option value="8">8ª Geração</option>
+            <option value="9">9ª Geração</option>
          </select>
          </div> 
+      </form>
+   <form class="form1" action="/submit" method="POST">
+      <div class="dropdown1">
+      <label for="filtro_tipagem"></label>
+      <select class="dropdown_open" name="filtro_tipagem" id="tipagem">
+         <option value="">Filtro Tipagem</option>
+         <!--<option value="grass">GRASS</option>
+         <option value="poison">POISON</option>
+         <option value="dragon">DRAGON</option>        
+         <option value="ground">GROUND</option>
+         <option value="fighting">FIGHTING</option>        
+         <option value="flying">FLYING</option>
+         <option value="ghost">GHOST</option>
+         <option value="dark">DARK</option>
+         <option value="normal">NORMAL</option>
+         <option value="ice">ICE</option>
+         <option value="bug">BUG</option>
+         <option value="eletric">ELETRIC</option>
+         <option value="fire">FIRE</option>
+         <option value="psychic">PSYCHIC</option>
+         <option value="water">WATER</option>
+         <option value="fairy">FAIRY</option>
+         <option value="steel">STEEL</option>-->
+      </select>
+      </div> 
       </form>    
       <form class="form2" action="/submit" method="POST">
          <div class="dropdown2">
          <label for="versao"></label>
          <select class="dropdown_open2" name="" id="versao">
             <option value="">Versão</option>
-               <option value="red_blue">Red Blue</option>
-                  <option value="yellow">Yellow</option>
-                     <option value="gold_silver">Gold Silver</option>        
-                        <option value="crystal">Crystal</option>
-                           <option value="ruby_sapphire">Ruby Sapphire</option>        
-                              <option value="emerald">Emerald</option>
-                                 <option value="firered_leafgreen">FireRed LeafGreen</option>
-                                    <option value="diamond_pearl">Diamond Pearl</option>
-                                       <option value="platinum">Platinum</option>
-                                          <option value="heartgold">HeartGold SoulSilver</option>
-                                             <option value="black_white">Black White</option>
-                                          <option value="black2_white2">Black2 White2</option>
-                                       <option value="x_y">X Y</option>
-                                    <option value="omegaruby_alphasapphire">Omega Ruby Alpha Sapphire</option>
-                                 <option value="sun_moon">Sun Moon</option>
-                              <option value="ultrasun_ultramoon">Ultra sun Ultra moon</option>
-                           <option value="letsgopikachu_letsgoeevee">Let's Go Pikachu Let's Go Eevee</option>
-                        <option value="sword_shield">Sword Shield</option>
-                     <option value="brilliantdiamond_shiningpearl">Brilliant Diamont Shining Pearl</option>
-                  <option value="legendarceus">Legend Arceus</option>
-               <option value="scarlet_violet">Scarlet Violet</option>
-            <option value="legendsza">Legends:Z-A</option>
+            <!--<option value="red_blue">Red Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="gold_silver">Gold Silver</option>        
+            <option value="crystal">Crystal</option>
+            <option value="ruby_sapphire">Ruby Sapphire</option>        
+            <option value="emerald">Emerald</option>
+            <option value="firered_leafgreen">FireRed LeafGreen</option>
+            <option value="diamond_pearl">Diamond Pearl</option>
+            <option value="platinum">Platinum</option>
+            <option value="heartgold">HeartGold SoulSilver</option>
+            <option value="black_white">Black White</option>
+            <option value="black2_white2">Black2 White2</option>
+            <option value="x_y">X Y</option>
+            <option value="omegaruby_alphasapphire">Omega Ruby Alpha Sapphire</option>
+            <option value="sun_moon">Sun Moon</option>
+            <option value="ultrasun_ultramoon">Ultra sun Ultra moon</option>
+            <option value="letsgopikachu_letsgoeevee">Let's Go Pikachu Let's Go Eevee</option>
+            <option value="sword_shield">Sword Shield</option>
+            <option value="brilliantdiamond_shiningpearl">Brilliant Diamont Shining Pearl</option>
+            <option value="legendarceus">Legend Arceus</option>
+            <option value="scarlet_violet">Scarlet Violet</option>
+            <option value="legendsza">Legends:Z-A</option>-->
          </select>
          </div> 
       </form>   
@@ -177,8 +176,8 @@
          <img class="separador" src="assets/icons/separador.png" alt="">
       <button class="config">Configurações</button>
 </div>
-
-
+<script src="./script.js"></script>
+<script src="./script2.js"></script>
 
    
    
