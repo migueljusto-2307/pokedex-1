@@ -73,6 +73,12 @@ margin: 30px 70px;
     background-color: #f98a3b;
     margin: 50px 0px;
 }
+.card_charmeleon{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(236, 110, 26);
+    margin: 50px 0px;
+}
 .desc{
     margin: 25px 50px;
 }
@@ -181,6 +187,14 @@ margin: 30px 70px;
     height: 300px;
     width: 250px;
     background-color: #f98a3b;
+    margin: 50px 0px;
+    font-size: 10px;
+    font-size: 15px;
+}
+.card_charmeleon{
+    height: 300px;
+    width: 250px;
+    background-color: rgba(236, 110, 26);
     margin: 50px 0px;
     font-size: 10px;
     font-size: 15px;
