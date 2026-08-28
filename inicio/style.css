@@ -131,7 +131,7 @@ margin: 20px 0px;
     width: 346px;
     height: 50px;
     border-radius: 16px;
-    margin: -750px 1000px;
+   /* margin: -750px 1000px;*/
     border: #FF4347;
     cursor: pointer;
 }
@@ -144,7 +144,7 @@ margin: 20px 0px;
     cursor: pointer;
 }
 .form{
-    margin: 0px 200px;
+   /* margin: 0px 200px;*/
     width: 1142px;
 }
 .dropdown1{
@@ -154,7 +154,7 @@ margin: 20px 0px;
     width: 346px;
     height: 50px;
     border-radius: 16px;
-    margin: 775px 1000px;
+    /*margin: 775px 1000px;*/
     border: #FF4347;
     cursor: pointer;
 }
@@ -167,7 +167,7 @@ margin: 20px 0px;
     cursor: pointer;
 }
 .form1{
-    margin: -200px 200px;
+    /*margin: -200px 200px;*/
     width: 1142px;
 }
 .dropdown2{
@@ -177,7 +177,7 @@ margin: 20px 0px;
     width: 346px;
     height: 50px;
     border-radius: 16px;
-    margin: -750px 1000px;
+    /*margin: -750px 1000px;*/
     border: #FF4347;
     cursor: pointer;
 }
@@ -190,7 +190,7 @@ margin: 20px 0px;
     cursor: pointer;
 }
 .form2{
-    margin: -200px 200px;
+    /*margin: -200px 200px;*/
     width: 1142px;
 }
 
@@ -347,6 +347,14 @@ margin: 20px 0px;
     width: 100%;
     height: 130px;
 }
+.info4 {
+    margin: 50px 40px;
+    background-color: rgb(218, 99, 20);
+    border-radius: 16px;
+    text-align: center;
+    width: 100%;
+    height: 130px;
+}
 .tipo{
     height: 30px;
     margin: 20px 0px;
@@ -359,6 +367,8 @@ margin: 20px 0px;
 }
 .menu_right {
     display: flex;
+    position: absolute;
+    right: 20px;
     order: 1;
     gap: 20px;
     margin: 15px 33px;
