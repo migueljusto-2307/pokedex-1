@@ -10,10 +10,10 @@ button.appendChild(star);
 
 star.addEventListener('click', modific);
 
-function modific(){ // função que filtra o segundo drop
+function modific(){ 
 
 
     star.setAttribute('src', 'assets/icons/star.png');
 
-    button.appendChild(star);//apensa ao segundo drop todos os options criados
+    button.appendChild(star);
     };
