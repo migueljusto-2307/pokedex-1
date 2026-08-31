@@ -15,18 +15,20 @@
 
 <body>
    <!--inicio da pagina inicial-->
-   <div class="menu"> <img class="icons_sm" src="assets/icons/menu.png" alt="menu">
+   <div class="menu"> <a href="../inicio/index.html"><button class="botao"><img class="icons_sm" src="assets/icons/arrow.png" alt="arrow"></button></a>
         <h1 class="title"> Pokédex </h1>
         <img class="icons_sm" src="assets/icons/star.png" alt="favoritos">           
    </div>
+   <div class="colunas">
+<div class="conteudo">
    <div class="content">
       <div class="pokemon">
          <div class="card">
             <a  href="../estrutura_poke_bulba/index.html"><button class="botao"><img class="tamanho" src="assets/pokemons/bulbassaur.png" alt="bulbassaur"></button></a>
-               <div class="info">        
+               <div class="info info1 infomargem">        
                   <div class="botoes"> <h1 class="nome-poke">#001<h1 class="nome-poke">Bulbassaur</h1>
-                     <div class="button-poke">                                      
-                        <img src="assets/icons/star.png" alt="favoritos">                        
+                     <div class="button-poke button_card">                                      
+                        <!--<img src="assets/icons/star.png" alt="favoritos">-->                      
                      </div>
                   </div>      
                   <p class="tipo1"> <img class="tipo" src="assets/imgs/grass.png" alt="grass"> <img class="tipo" src="assets/imgs/poison.png" alt="poison"></p>
@@ -38,10 +40,10 @@
       <div class="pokemon">
           <div class="card">
             <a href="../ivysaur/index.html"><button class="botao"><img class="tamanho1" src="assets/pokemons/ivysaur.png" alt="ivysaur"></button></a>
-               <div class="info1">
+               <div class="info info2 infomargem">
                   <div class="botoes"><h1 class="nome-poke">#002 <h1 class="nome-poke">Ivysaur</h1>
-                     <div class="button-poke">
-                        <img src="assets/icons/star.png" alt="favoritos">                        
+                     <div class="button-poke button_card">
+                        <!--<img src="assets/icons/star.png" alt="favoritos">-->                        
                      </div>
                   </div>
                   <p class="tipo1"> <img class="tipo" src="assets/imgs/grass.png" alt="grass"> <img class="tipo" src="assets/imgs/poison.png" alt="poison"></p>
@@ -52,11 +54,11 @@
    <div class="content">
       <div class="pokemon">
          <div class="card">
-            <a href="../venusaur/index.html"><button class="botao"></button><img class="tamanho" src="assets/pokemons/venusaur.png" alt="Venusaur"></a>
-               <div class="info2">
+            <a href="../venusaur/index.html"><button class="botao"><img class="tamanho" src="assets/pokemons/venusaur.png" alt="Venusaur"></button></a>
+               <div class="info info3 infomargem">
                   <div class="botoes"><h1 class="nome-poke">#003 <h1 class="nome-poke">Venusaur</h1>
-                     <div class="button-poke">
-                        <img src="assets/icons/star.png" alt="favoritos">  
+                     <div class="button-poke button_card">
+                        <!--<img src="assets/icons/star.png" alt="favoritos">-->  
                      </div>
                   </div>
                   <p class="tipo1"> <img class="tipo" src="assets/imgs/grass.png" alt="grass"> <img class="tipo" src="assets/imgs/poison.png" alt="poison"></p>
@@ -67,11 +69,11 @@
    <div class="content">
       <div class="pokemon">
          <div class="card">
-            <a href="../charmander/index.html"><button class="botao"></button><img class="tamanho1" src="assets/pokemons/charmander.png" alt="Charmander"></a>
-               <div class="info3"> 
+            <a href="../charmander/index.html"><button class="botao"><img class="tamanho1" src="assets/pokemons/charmander.png" alt="Charmander"></button></a>
+               <div class="info info4 infomargem"> 
                   <div class="botoes"><h1 class="nome-poke">#004 <h1 class="nome-poke">Charmander</h1>
-                     <div class="button-poke">
-                        <img src="assets/icons/star.png" alt="favoritos">
+                     <div class="button-poke button_card">
+                        <!--<img src="assets/icons/star.png" alt="favoritos">-->
                      </div>
                   </div>
                   <p class="tipo1"> <img class="tipo" src="assets/imgs/fire.png" alt="Fire">
@@ -79,3 +81,45 @@
          </div>
       </div>   
    </div>
+</div>
+
+ <div class="menu_right">
+
+<form class="form" action="/submit" method="POST">
+         <div class="dropdown">
+         <label for="geracao"></label>
+         <select class="dropdown_open1" name="geracao" id="geracao">
+            <option value="">Geração</option>
+            <option value="1">1ª Geração</option>
+            <option value="2">2ª Geração</option>
+            <option value="3">3ª Geração</option>        
+            <option value="4">4ª Geração</option>
+            <option value="5">5ª Geração</option>        
+            <option value="6">6ª Geração</option>
+            <option value="7">7ª Geração</option>
+            <option value="8">8ª Geração</option>
+            <option value="9">9ª Geração</option>
+         </select>
+         </div> 
+      </form>
+   <form class="form1" action="/submit" method="POST">
+      <div class="dropdown1">
+      <label for="filtr</div>o_tipagem"></label>
+      <select class="dropdown_open" name="filtro_tipagem" id="tipagem">
+         <option value="">Filtro Tipagem</option>
+      </select>
+      </div> 
+      </form>    
+      <form class="form2" action="/submit" method="POST">
+         <div class="dropdown2">
+         <label for="versao"></label>
+         <select class="dropdown_open2" name="" id="versao">
+            <option value="">Versão</option>
+         </select>
+         </div> 
+      </form>   
+   </div>
+   </div></div>
+   <script src="script.js"></script>
+   <script src="script2.js"></script>
+   </body>
