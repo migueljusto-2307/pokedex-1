@@ -9,6 +9,10 @@ body {
     margin: 0px 0px;
 }
 
+#meu-botao {
+    cursor: pointer;
+}
+
 .inter-regular { 
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
