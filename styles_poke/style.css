@@ -79,6 +79,48 @@ margin: 30px 70px;
     background-color: rgba(236, 110, 26);
     margin: 50px 0px;
 }
+.card_charizard{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(185, 84, 16);
+    margin: 50px 0px;
+}
+.card_squirtle{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(43, 141, 253);
+    margin: 50px 0px;
+}
+.card_wartortle{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(17, 113, 223);
+    margin: 50px 0px;
+}
+.card_blastoise{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(3, 96, 202);
+    margin: 50px 0px;
+}
+.card_caterpie{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(30, 236, 47);
+    margin: 50px 0px;
+}
+.card_metapod{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(6, 168, 19);
+    margin: 50px 0px;
+}
+.card_butterfree{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(127, 14, 202);
+    margin: 50px 0px;
+}
 .desc{
     margin: 25px 50px;
 }
